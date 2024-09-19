@@ -5,10 +5,14 @@ class Movie {
     public $genre;
     public $runtime;
 
-    function __construct($_title, $_genre, $_year){
+    function __construct($_title, $_genre, $_runtime){
         $this->title = $_title;
         $this->genre = $_genre;
-        $this->year = $_year;
+        $this->runtime = $_runtime;
+    }
+
+    public function getMovie(){
+        return "Titolo"." ".$this->title." "."genere"." ".$this->genre." "."durata"." ".$this->runtime;
     }
 }
 
