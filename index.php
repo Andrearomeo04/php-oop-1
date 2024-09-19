@@ -16,4 +16,10 @@ class Movie {
     }
 }
 
+$avge = new Movie('Avengers: Endgame', 'Fantasy', '181 min');
+$snwh = new Movie('Spider-man: No Way Home', 'Fantasy', '148 min');
+$tr = new Movie('Thor: Ragnarok', 'Fantasy', '130 min');
+$bb = new Movie('Bad Boys', 'comedy, crime', '119 min');
+$io = new Movie('Inside Out 2', 'animation, drama', '96 min')
+
 ?>
